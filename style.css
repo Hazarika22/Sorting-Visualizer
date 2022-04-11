@@ -1,0 +1,134 @@
+body{
+    background-color: #0b0610;
+  }
+
+  /*Heading */
+  h1 {
+    background-color: #0b0610;
+    font-weight: 250; 
+    font-size: 70px;
+    color: #66f6f1;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 10px solid;
+    margin-top: 0% ;
+    margin-bottom: 0;
+  }
+
+
+            /*Left Division : leftdiv*/
+
+  h2{
+    text-transform: uppercase;
+    text-align: center;
+    color:#66f6f1;
+  }
+
+
+  .inpbar{
+    background-color: #0b0610;
+    text-align: center;
+    align-items: center;
+    color: #66f6f1;
+  }
+
+    /* Generate new array */
+  
+  .Slider{
+      -webkit-appearance: none;
+      width: 65%;
+      height: 15px;
+      background: #0b0610  ;
+      border: 5px solid #66f6f1;
+      border-radius: 10px;
+      
+  }
+
+  .genarr{
+    padding: 20px 25px;
+    background-color: #0b0610;
+    font-size: 20px;  
+    width: 100%;
+    color: #66f6f1;
+    text-align: center;
+    border: 1px solid #66f6f1;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  .genarr:hover{
+    transition: 0.3s;
+    background-color: #ECE4DB;
+    color: #000000;
+  }
+
+
+          /* Right Division: Algorithms  Button*/
+          
+  .algos button {
+    width:100%;
+    height: 16.66%;
+    padding: 20px 25px;
+    background-color: #0b0610;
+    color: #66f6f1;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #3cf9ff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+ 
+  .algos button:hover {
+    transition: 0.3s;
+    background-color: #ECE4DB;
+    color: #000000;
+  }
+  .algos .butt_locked {
+    cursor: not-allowed;
+  }
+  .algos .butt_locked:hover {
+    background-color: transparent;
+  }
+  
+  .algos .butt_selected {
+    background-color: #ECE4DB;
+    color: #000000;
+  }
+  
+  .algos .butt_selected:hover {
+    background-color: #ECE4DB;
+    cursor: pointer;
+  }
+  
+  .algos .butt_unselected:hover {
+    background-color: #ECE4DB;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Center Division : Graphs */
+
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #leftdiv{
+    flex: 1;
+  }
+
+  #array_container {
+    flex:3.25;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #66f6f1;
+  }
+
+  #rightdiv{
+    flex:1;
+    }
+ 
