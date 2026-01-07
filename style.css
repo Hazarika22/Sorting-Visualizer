@@ -15,6 +15,22 @@ body{
     margin-bottom: 0;
   }
 
+  /* Introduction Section */
+  #introduction {
+    text-align: center;
+    color: #f0f0f0;
+    margin: 20px;
+  }
+
+  #introduction h2 {
+    font-size: 24px;
+    color: #66f6f1;
+  }
+
+  #introduction p {
+    font-size: 18px;
+    color: #cccccc;
+  }
 
             /*Left Division : leftdiv*/
 

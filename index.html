@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorting-Visualiser</title>
+    <title>Sorting Visualiser - Home</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -14,50 +14,40 @@
     </header>
    
     <section>
-    <div class="container">
-        <div id="leftdiv">
-            <div class="inpbar">
-                <br><br>
-                <input id="a_size" class="Slider" type="range" min=20 max=150 step=1 value=50>
-                <br><br>
-                <h2>Array Size</h2>
-                <br><br>
-                <input id="a_speed" class="Slider" type="range" min=2 max=15 step=1 value=5>
-                <br><br>
-                <h2>Speed of Execution</h2>
-                <br><br>
-                <button id="a_generate" class="genarr"> Get a new Array! </button>
+        <div class="container">
+            <div id="introduction">
+                <h2>Welcome to the Sorting Visualizer!</h2>
+                <p>This tool helps you visualize different sorting algorithms. Adjust the array size and speed, then select a sorting algorithm to see it in action!</p>
+            </div>
+            <div id="leftdiv">
+                <div class="inpbar">
+                    <br><br>
+                    <input id="a_size" class="Slider" type="range" min=20 max=150 step=1 value=50>
+                    <br><br>
+                    <h2>Array Size</h2>
+                    <br><br>
+                    <input id="a_speed" class="Slider" type="range" min=2 max=15 step=1 value=5>
+                    <br><br>
+                    <h2>Speed of Execution</h2>
+                    <br><br>
+                    <button id="a_generate" class="genarr"> Get a new Array! </button>
+                </div>
+            </div>
+            
+            <div id="array_container"></div>
+
+            <div id="rightdiv">
+                <div class="algos">
+                    <button class="Options">Bubble</button>
+                    <button class="Options">Selection</button>
+                    <button class="Options">Insertion</button>
+                    <button class="Options">Merge</button>
+                    <button class="Options">Quick</button>
+                    <button class="Options">Heap</button>
+                </div>
             </div>
         </div>
-        
-        <div id="array_container">
-
-        </div>
-
-        <div id="rightdiv">
-
-            <div class="algos">
-                    
-                <button class="Options">Bubble</button>
-                    
-                <button class="Options">Selection</button>
-                    
-                <button class="Options">Insertion</button>
-                    
-                <button class="Options">Merge</button>
-                    
-                <button class="Options">Quick</button>
-                    
-                <button class="Options">Heap</button>
-                </div>
-        </div>
-    </div>
-
     </section>
-
-
-
-
 
     <script src="./main.js"></script>
     <script src="./visualizations.js"></script>
